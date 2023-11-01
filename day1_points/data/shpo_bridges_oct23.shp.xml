@@ -1,0 +1,620 @@
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20231017</CreaDate>
+		<CreaTime>14085500</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle>
+		<SyncOnce>FALSE</SyncOnce>
+		<DataProperties>
+			<itemProps>
+				<imsContentType Sync="TRUE">002</imsContentType>
+				<itemName Sync="TRUE">shpo_bridges_oct23</itemName>
+				<nativeExtBox>
+					<westBL Sync="TRUE">65850.448700</westBL>
+					<eastBL Sync="TRUE">793412.706300</eastBL>
+					<southBL Sync="TRUE">64152.036400</southBL>
+					<northBL Sync="TRUE">779962.541800</northBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</nativeExtBox>
+				<itemSize Sync="TRUE">0.000</itemSize>
+				<itemLocation>
+					<linkage Sync="TRUE">file://\\ict-az2-fs11.server.ufl.edu\geo-fs8-qaqc\finaldata\state\post_load\shpo_bridges_oct23.shp</linkage>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+				</itemLocation>
+			</itemProps>
+			<coordRef>
+				<type Sync="TRUE">Projected</type>
+				<geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn>
+				<csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+				<projcsn Sync="TRUE">NAD_1983_HARN_Florida_GDL_Albers</projcsn>
+				<peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/3.1.0'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_HARN_Florida_GDL_Albers&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983_HARN&amp;quot;,DATUM[&amp;quot;D_North_American_1983_HARN&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Albers&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,400000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-84.0],PARAMETER[&amp;quot;Standard_Parallel_1&amp;quot;,24.0],PARAMETER[&amp;quot;Standard_Parallel_2&amp;quot;,31.5],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,24.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,3087]]&lt;/WKT&gt;&lt;XOrigin&gt;-19550100&lt;/XOrigin&gt;&lt;YOrigin&gt;-7526400&lt;/YOrigin&gt;&lt;XYScale&gt;225743210.67916927&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;3087&lt;/WKID&gt;&lt;LatestWKID&gt;3087&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+			</coordRef>
+			<copyHistory><copy source="Q:\data_output\sam\shpo\202310\shpo_bridges_oct23" dest="\\ict-az2-fs11.server.ufl.edu\geo-fs8-qaqc\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23" date="20231017" time="14085500"/></copyHistory><lineage><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20231020" Time="101331">FeatureClassToFeatureClass Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\ SHPO_BRIDGES_OCT23 # "SITEID "SITEID" true true false 8 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,SITEID,0,8;SITENAME "SITENAME" true true false 40 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,SITENAME,0,40;SURVEYNUM "SURVEYNUM" true true false 5 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,SURVEYNUM,0,5;FDOTNUM "FDOTNUM" true true false 7 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,FDOTNUM,0,7;YEARBUILT "YEARBUILT" true true false 5 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,YEARBUILT,0,5;CONDITION "CONDITION" true true false 12 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,CONDITION,0,12;LENGTH "LENGTH" true true false 5 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,LENGTH,0,5;ENGINEERS "ENGINEERS" true true false 70 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,ENGINEERS,0,70;OWNERSHIP "OWNERSHIP" true true false 35 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,OWNERSHIP,0,35;DESIGN1 "DESIGN1" true true false 40 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,DESIGN1,0,40;DESIGN2 "DESIGN2" true true false 40 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,DESIGN2,0,40;MATERIAL1 "MATERIAL1" true true false 20 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,MATERIAL1,0,20;MATERIAL2 "MATERIAL2" true true false 20 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,MATERIAL2,0,20;INUSE "INUSE" true true false 4 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,INUSE,0,4;D_NRLISTED "D_NRLISTED" true true false 8 Date 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,D_NRLISTED,-1,-1;SHPOEVAL "SHPOEVAL" true true false 30 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,SHPOEVAL,0,30;LAT_DD "LAT_DD" true true false 19 Double 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,LAT_DD,-1,-1;LONG_DD "LONG_DD" true true false 19 Double 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,LONG_DD,-1,-1;MGRS "MGRS" true true false 15 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,MGRS,0,15;GOOGLEMAP "GOOGLEMAP" true true false 100 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,GOOGLEMAP,0,100;DESCRIPT "DESCRIPT" true true false 40 Text 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,DESCRIPT,0,40;FGDLAQDATE "FGDLAQDATE" true true false 8 Date 0 0,First,#,Q:\finaldata\state\pre_load\SHPO_temp\shpo_bridges_oct23.shp,FGDLAQDATE,-1,-1" #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddField" Date="20231020" Time="101934">AddField C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 AUTOID "Long (32-bit integer)" # # # # NULLABLE NON_REQUIRED #</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CalculateField" Date="20231020" Time="101936">CalculateField C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 AUTOID !OBJECTID! PYTHON_9.3 # Text NO_ENFORCE_DOMAINS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20231020" Time="101937">AddIndex C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 AUTOID A20231020101937 NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20231020" Time="101938">AddIndex C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 DESCRIPT D20231020101937 NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20231020" Time="101939">AddIndex C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 SITENAME AF20231020101938 NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20231020" Time="101941">AddIndex C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 SHPOEVAL AF20231020101941 NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20231020" Time="101944">AddIndex C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 SITEID AF20231020101944 NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20231020" Time="101947">AddIndex C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 FDOTNUM AF20231020101946 NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\AddIndex" Date="20231020" Time="101949">AddIndex C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 YEARBUILT AF20231020101949 NON_UNIQUE NON_ASCENDING</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\Analyze" Date="20231020" Time="101952">Analyze C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\\ETAT.SHPO_BRIDGES_OCT23 BUSINESS</Process><Process ToolSource="c:\program files\arcgis\pro\Resources\ArcToolbox\toolboxes\Data Management Tools.tbx\CopyFeatures" Date="20231020" Time="105825">CopyFeatures C:\Users\sam240\AppData\Roaming\ESRI\ArcGISPro\Favorites\poke_etat.sde\ETAT.aaa\ETAT.SHPO_BRIDGES_OCT23 Q:\finaldata\state\post_load\shpo_bridges_oct23.shp # # # #</Process></lineage></DataProperties>
+		<scaleRange>
+			<minScale>50000</minScale>
+			<maxScale>5000</maxScale>
+		</scaleRange>
+		<SyncDate>20231020</SyncDate>
+		<SyncTime>10582500</SyncTime>
+		<ModDate>20231020</ModDate>
+		<ModTime>10582500</ModTime>
+	</Esri>
+	<mdLang>
+		<languageCode value="eng"/>
+		<countryCode value="USA" Sync="TRUE"/>
+	</mdLang>
+	<mdChar>
+		<CharSetCd value="004"/>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005"/>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<mdContact>
+		<rpIndName>Vincent Birdsong or Dr. Marion Smith</rpIndName>
+		<rpOrgName>Bureau of Archaeological Research</rpOrgName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>(850) 245-6440</voiceNum>
+				<faxNum>(850) 245-6439</faxNum>
+			</cntPhone>
+			<cntAddress addressType="both">
+				<delPoint>R. A. Gray Building, 500 South Bronough St.</delPoint>
+				<city>Tallahassee</city>
+				<adminArea>FL</adminArea>
+				<postCode>32399-0250</postCode>
+				<eMailAdd>msmith@dos.state.fl.us</eMailAdd>
+			</cntAddress>
+		</rpCntInfo>
+		<role>
+			<RoleCd value="007"/>
+		</role>
+	</mdContact>
+	<mdDateSt Sync="TRUE">20231020</mdDateSt>
+	<mdStanName>ArcGIS Metadata</mdStanName>
+	<mdStanVer>1.0</mdStanVer>
+	<distInfo xmlns="">
+		<distTranOps>
+			<transSize Sync="TRUE">0.000</transSize>
+		</distTranOps>
+		<distributor>
+			<distorCont>
+				<rpOrgName>Florida Geographic Data Library (FGDL)</rpOrgName>
+				<role>
+					<RoleCd value="005"/>
+				</role>
+				<rpCntInfo>
+					<cntAddress addressType="postal">
+						<delPoint>431 Architecture PO Box 115706</delPoint>
+						<eMailAdd>Web site: http://www.fgdl.org</eMailAdd>
+						<city>Gainesville</city>
+						<adminArea>FL</adminArea>
+						<postCode>32611-5706</postCode>
+						<country>US</country>
+					</cntAddress>
+					<cntPhone>
+						<voiceNum tddtty="">None</voiceNum>
+					</cntPhone>
+				</rpCntInfo>
+			</distorCont>
+			<distorTran>
+				<onLineSrc>
+					<orDesc>DOWNLOADABLE DATA</orDesc>
+					<linkage>https://www.fgdl.org/</linkage>
+				</onLineSrc>
+			</distorTran>
+		</distributor>
+		<distFormat>
+			<formatName Sync="TRUE">Shapefile</formatName>
+		</distFormat>
+	</distInfo>
+	<dataIdInfo>
+		<idCitation>
+			<resTitle>Historic Bridges in Florida - October 2023</resTitle>
+			<date>
+				<pubDate>2023-10-03</pubDate>
+			</date>
+			<citRespParty>
+				<rpOrgName>Bureau of Archaeological Research</rpOrgName>
+				<rpCntInfo>
+					<cntAddress>
+						<delPoint>Tallahassee, FL</delPoint>
+					</cntAddress>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="010"/>
+				</role>
+			</citRespParty>
+			<citRespParty>
+				<rpOrgName>Bureau of Archaeological Research</rpOrgName>
+				<role>
+					<RoleCd value="006"/>
+				</role>
+			</citRespParty>
+			<presForm>
+				<fgdcGeoform>Vector Digital Data Set (Polyline)</fgdcGeoform>
+				<PresFormCd value="005" Sync="TRUE"/>
+			</presForm>
+			<otherCitDet>State of Florida</otherCitDet>
+		</idCitation>
+		<idAbs>This data set contains historic bridge locations and basic bridge attributes as recorded at the Florida Master Site File.</idAbs>
+		<idPurp>This data set contains historic bridge locations and basic bridge attributes as recorded at the Florida Master Site File.</idPurp>
+		<idStatus>
+			<ProgCd value="001"/>
+		</idStatus>
+		<idPoC>
+			<rpIndName>Vincent Birdsong or Dr. Marion Smith</rpIndName>
+			<rpOrgName>Bureau of Archaeological Research, Division of Historical Resources</rpOrgName>
+			<rpCntInfo>
+				<cntPhone>
+					<voiceNum>(850) 245-6440</voiceNum>
+					<faxNum>(850) 245-6439</faxNum>
+				</cntPhone>
+				<cntAddress addressType="postal">
+					<delPoint>R. A. Gray Building 500 South Bronough St.</delPoint>
+					<city>Tallahassee</city>
+					<adminArea>Florida</adminArea>
+					<postCode>32399-0250</postCode>
+					<eMailAdd>FGDL Frequently Asked Questions: http://www.fgdl.org/fgdlfaq.html</eMailAdd>
+				</cntAddress>
+			</rpCntInfo>
+			<role>
+				<RoleCd value="007"/>
+			</role>
+		</idPoC>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009"/>
+			</maintFreq>
+		</resMaint>
+		<placeKeys>
+			<keyword>Florida</keyword>
+		</placeKeys>
+		<themeKeys>
+			<keyword>transportation</keyword>
+			<keyword>society</keyword>
+			<thesaName>
+				<resTitle>ISO 19115 Topic Category</resTitle>
+			</thesaName>
+		</themeKeys>
+		<themeKeys>
+			<keyword>transportation</keyword>
+			<keyword>society</keyword>
+		</themeKeys>
+		<searchKeys>
+			<keyword>transportation</keyword>
+			<keyword>transportation</keyword>
+			<keyword>society</keyword>
+			<keyword>Florida</keyword>
+			<keyword>society</keyword>
+		</searchKeys>
+		<resConst>
+			<LegConsts xmlns="">
+				<useLimit>The Florida Geographic Data Library is a collection of Geospatial Data compiled by the University of Florida GeoPlan Center with support from the Florida Department of Transportation. GIS data available in FGDL is collected from various state, federal, and other agencies (data sources) who are data stewards, producers, or publishers. The data available in FGDL may not be the most current version of the data offered by the data source. University of Florida GeoPlan Center makes no guarantees about the currentness of the data and suggests that data users check with the data source to see if more recent versions of the data exist. Furthermore, the GIS data available in the FGDL are provided 'as is'. The University of Florida GeoPlan Center makes no warranties, guaranties or representations as to the truth, accuracy or completeness of the data provided by the data sources. The University of Florida GeoPlan Center makes no representations or warranties about the quality or suitability of the materials, either expressly or implied, including but not limited to any implied warranties of merchantability, fitness for a particular purpose, or non-infringement. The University of Florida GeoPlan Center shall not be liable for any damages suffered as a result of using, modifying, contributing or distributing the materials. A note about data scale: Scale is an important factor in data usage. Certain scale datasets are not suitable for some project, analysis, or modeling purposes. Please be sure you are using the best available data. 1:24000 scale datasets are recommended for projects that are at the county level. 1:24000 data should NOT be used for high accuracy base mapping such as property parcel boundaries. 1:100000 scale datasets are recommended for projects that are at the multi-county or regional level. 1:125000 scale datasets are recommended for projects that are at the regional or state level or larger. Vector datasets with no defined scale or accuracy should be considered suspect. Make sure you are familiar with your data before using it for projects or analysis. Every effort has been made to supply the user with data documentation. For additional information, see the References section and the Data Source Contact section of this documentation. For more information regarding scale and accuracy, see our webpage at: http://geoplan.ufl.edu/education.html</useLimit>
+			</LegConsts>
+		</resConst>
+		<resConst>
+			<Consts>
+				<useLimit>The locations of archaeological sites, historic structures, unmarked human burials, bridges, and other cultural features contained in this (and other) Site File data layers are for resource management, law enforcement, and research purposes only. State law protects archaeological remains on state owned and controlled lands (section 267.13, Florida Statutes). State law protects human burial sites on all lands (sections 872.02 and 872.05, Florida Statutes).</useLimit>
+			</Consts>
+		</resConst>
+		<aggrInfo>
+			<aggrDSName>
+				<otherCitDet>Bureau of Archaeological Research: http://www.flheritage.com/</otherCitDet>
+			</aggrDSName>
+			<assocType>
+				<AscTypeCd value="001"/>
+			</assocType>
+		</aggrInfo>
+		<spatRpType>
+			<SpatRepTypCd value="001"/>
+		</spatRpType>
+		<dataLang>
+			<languageCode value="eng"/>
+			<countryCode value="USA" Sync="TRUE"/>
+		</dataLang>
+		<tpCat>
+			<TopicCatCd value="016"/>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="018"/>
+		</tpCat>
+		<envirDesc Sync="TRUE">Microsoft Windows 10 Version 10.0 (Build 19045) ; Esri ArcGIS 13.1.2.41833</envirDesc>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox>
+					<westBL>-87.500691972</westBL>
+					<eastBL>-79.87886957</eastBL>
+					<southBL>24.523089198</southBL>
+					<northBL>31.02752122</northBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataExt>
+			<exDesc>publication date</exDesc>
+			<tempEle>
+				<TempExtent>
+					<exTemp>
+						<TM_Instant>
+							<tmPosition>2023-10-03</tmPosition>
+						</TM_Instant>
+					</exTemp>
+				</TempExtent>
+			</tempEle>
+			<geoEle/>
+		</dataExt>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="search">
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+					<westBL Sync="TRUE">-87.500692</westBL>
+					<eastBL Sync="TRUE">-79.878870</eastBL>
+					<northBL Sync="TRUE">31.028035</northBL>
+					<southBL Sync="TRUE">24.523089</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+	</dataIdInfo>
+	<dqInfo>
+		<dqScope>
+			<scpLvl>
+				<ScopeCd value="005"/>
+			</scpLvl>
+		</dqScope>
+		<report type="DQConcConsis">
+			<measDesc>The historical bridge data are based on field reports which have been submitted by many and varied individuals, groups, institutions, and cultural resource firms. Submissions to the Site File are sometimes accepted from amateurs as well as professionals. The locations are only as accurate as the locational information submitted to the Site File by the site recorder. The accuracy of submitted information cannot always be verified. The absence of a cultural resource in this data layer does not preclude the existence of an unrecorded resource in the field. The bridges recorded at the Site File represent only a fraction of the historic bridges present statewide.</measDesc>
+		</report>
+		<report type="DQCompOm">
+			<measDesc>This data set updates and replaces all previous versions of the Florida Master Site File historical bridges data layer. This version incorporates newly recorded bridges and updates of previously recorded ones. Data from the Florida Master Site File are continually updated. This data layer is only current as of the date of this document. Contact the Florida Master Site File for updated data layers.</measDesc>
+		</report>
+		<dataLineage>
+			<prcStep>
+				<stepDesc>Source data were created by the Division of Historical Resources. The original location data are based on field recording forms and map plots submitted to the Site File. Florida Master Site File site folders contain an historic bridge form with descriptive location data, photographs, and any site plots provided by the surveyor. This data layer is maintained by on-screen (heads-up) digitizing bridge locations in ESRI ArcMAP. Scanned, georeferenced, 1:24,000 scale USGS quadrangles in geographic coordinates (lat./long., NAD27) are used as the background reference images.</stepDesc>
+				<stepDateTm date="unknown"/>
+				<stepSrc type="used">
+					<srcCitatn>
+						<resAltTitle>Bureau of Archaeological Research</resAltTitle>
+					</srcCitatn>
+				</stepSrc>
+			</prcStep>
+			<prcStep>
+				<stepDesc>When received by GeoPlan, the data was in the following projection: Geographic, Datum: WGS 1984 Units: Decimal Degrees. The shapefile was projected to Albers HARN in ArcToolBox using the following transformation: WGS_1984_(ITRF00)_To_NAD_1983 + NAD_1983_To_HARN_Florida -Reprojected to Albers HARN -Added DESCRIPT field based on SITENAME to attribute table -Added fields FGDLAQDATE -Upcased all items in the attribute table -Changed file name to shpo_bridges from HistoricalBridges</stepDesc>
+				<stepDateTm>2023-10-13</stepDateTm>
+				<stepSrc type="used">
+					<srcCitatn>
+						<resAltTitle>GeoPlan</resAltTitle>
+					</srcCitatn>
+				</stepSrc>
+			</prcStep>
+			<dataSource xmlns="" type="">
+				<srcDesc>Spatial and Attribute Information</srcDesc>
+				<srcMedName>
+					<MedNameCd value="015"/>
+				</srcMedName>
+			</dataSource>
+		</dataLineage>
+		<report xmlns="" type="DQConcConsis" dimension="">
+			<measDesc>This data is provided 'as is'. GeoPlan relied on the integrity of the original data layer's topology.</measDesc>
+		</report>
+		<report xmlns="" type="DQCompOm" dimension="">
+			<measDesc>This data is provided 'as is' by GeoPlan and is complete to our knowledge.</measDesc>
+		</report>
+		<report xmlns="" type="DQQuanAttAcc" dimension="">
+			<measDesc>GeoPlan relied on the integrity of the attribute information within the original data.</measDesc>
+			<evalMethType>
+				<EvalMethTypeCd value="003"/>
+			</evalMethType>
+		</report>
+		<report xmlns="" type="DQAbsExtPosAcc" dimension="horizontal">
+			<measDesc>This data is provided 'as is' and its horizontal positional accuracy has not been verified by GeoPlan.</measDesc>
+		</report>
+		<report xmlns="" type="DQAbsExtPosAcc" dimension="vertical">
+			<measDesc>This data is provided 'as is' and its vertical positional accuracy has not been verified by GeoPlan.</measDesc>
+			<measResult>
+				<ConResult>
+					<conPass>0</conPass>
+				</ConResult>
+			</measResult>
+		</report>
+	</dqInfo>
+	<spatRepInfo>
+		<VectSpatRep><geometObjs Name="shpo_bridges_oct23"><geoObjTyp><GeoObjTypCd value="002" Sync="TRUE"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs><topLvl><TopoLevCd value="001" Sync="TRUE"></TopoLevCd></topLvl></VectSpatRep></spatRepInfo>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode code="3087" Sync="TRUE"/>
+				<idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+				<idVersion Sync="TRUE">6.12(9.2.0)</idVersion>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<eainfo>
+		<detailed Name="shpo_bridges_oct23">
+			<enttyp>
+				<enttypl Sync="TRUE">shpo_bridges_oct23</enttypl>
+				<enttypd>SHPO_BRIDGES_OCT23.DBF</enttypd>
+				<enttypds>Bureau of Archaeological Research</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt>
+				<enttypc Sync="TRUE">0</enttypc>
+			</enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">Esri</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attalias Sync="TRUE">Shape</attalias>
+				<attrtype Sync="TRUE">Geometry</attrtype>
+				<attwidth Sync="TRUE">0</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">Esri</attrdefs>
+				<attrdomv>
+					<udom Sync="TRUE">Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FDOTNUM</attrlabl>
+				<attrdef>The FDOT number is six positions in length, with the first two numbers as the defining code for the county. The remaining four positions are used as a unique number for the bridge within the county. A zero value for this field indicates there is no FDOT number for the bridge.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">FDOTNUM</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">7</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>CONDITION</attrlabl>
+				<attrdef>The overall condition of the bridge.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">CONDITION</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">12</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>ENGINEERS</attrlabl>
+				<attrdef>The primary designers/engineers of the bridge if known.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">ENGINEERS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">70</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>OWNERSHIP</attrlabl>
+				<attrdef>Ownership type.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">OWNERSHIP</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">35</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LENGTH</attrlabl>
+				<attrdef>Overall length of the bridge in feet.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">LENGTH</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>SHPOEVAL</attrlabl>
+				<attrdef>Evaluation of Florida's State Historic Preservation Officer (SHPO) concerning the eligibility of the resource for listing on the National Register of Historic Places. In Florida, the SHPO is the Director of the Division of Historical Resources, acting through staff in the Bureau of Historic Preservation (BHP). Generally the Site File database only contains evaluations made by the Compliance Review staff of BHP. Some properties may be listed on the NRHP without having been reviewed by Compliance Review staff. Therefore, an NR list date (indicating a property is NR listed) takes priority over a 'Not Evaluated by SHPO' value in this field. Values in this field are limited to a discrete list of possibilities used in the Site File database lookup table. Contact the Site File for more information.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">SHPOEVAL</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">30</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>D_NRLISTED</attrlabl>
+				<attrdef>Date that the site was officially listed on the National Register of HistoricPlaces (NRHP). The field is blank if the FMSF database does not indicate the property is National Register listed.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">D_NRLISTED</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>SURVEYNUM</attrlabl>
+				<attrdef>The serial number assigned by the Site File to the manuscript produced by the project which identified or reexamined the cultural resource. Not all bridges have an associated report or manuscript.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">SURVEYNUM</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>DESIGN1</attrlabl>
+				<attrdef>Bridge design.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">DESIGN1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>YEARBUILT</attrlabl>
+				<attrdef>The initial date of the bridge's physical construction. A value of 'UNKN'for this field indicates the year of construction is unknown.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">YEARBUILT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">5</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>INUSE</attrlabl>
+				<attrdef>Indicates whether or not the bridge is currently in service.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attrdomv>
+					<edom>
+						<edomv>NO</edomv>
+						<edomvd>for not in service.</edomvd>
+					</edom>
+					<edom>
+						<edomv>YES</edomv>
+						<edomvd>for in service.</edomvd>
+					</edom>
+					<edom>
+						<edomv>Blank</edomv>
+						<edomvd>if not recorded.</edomvd>
+					</edom>
+				</attrdomv>
+				<attalias Sync="TRUE">INUSE</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">4</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>MATERIAL1</attrlabl>
+				<attrdef>Construction material.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">MATERIAL1</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>MATERIAL2</attrlabl>
+				<attrdef>Construction material.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">MATERIAL2</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">20</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>SITENAME</attrlabl>
+				<attrdef>The bridge name as recorded at the Florida Master Site File. This is usually the principal or best known name for a cultural resource.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">SITENAME</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>DESIGN2</attrlabl>
+				<attrdef>Additional bridge design.</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">DESIGN2</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>SITEID</attrlabl>
+				<attrdef>This is the official state site number assigned by the Florida Master Site File. The state site number is an eight character string containing a two character county code, a five character numeric code, and an optionalsingle letter character suffix (suffix letter is generally used to indicate sites that are functionally or spatially related).</attrdef>
+				<attrdefs>Bureau of Archaeological Research</attrdefs>
+				<attalias Sync="TRUE">SITEID</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LAT_DD</attrlabl>
+				<attrdef>Latitude in decimal degrees.</attrdef>
+				<attrdefs>GeoPlan</attrdefs>
+				<attalias Sync="TRUE">LAT_DD</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">18</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+			</attr>
+			<attr>
+				<attrlabl>LONG_DD</attrlabl>
+				<attrdef>Longitude in decimal degrees.</attrdef>
+				<attrdefs>GeoPlan</attrdefs>
+				<attalias Sync="TRUE">LONG_DD</attalias>
+				<attrtype Sync="TRUE">Double</attrtype>
+				<attwidth Sync="TRUE">19</attwidth>
+				<atprecis Sync="TRUE">18</atprecis>
+				<attscale Sync="TRUE">8</attscale>
+			</attr>
+			<attr>
+				<attrlabl>MGRS</attrlabl>
+				<attrdef>Military Grid Reference System (MGRS) Coordinate of the Facility. The MGRS is the geocoordinate standard used by NATO militaries for locating points on the earth. The MGRS provides a means to represent any location on the surface of the Earth using an alphanumeric string. Hierarchical references are based on the Universal Transverse Mercator (UTM) coordinate system. The MGRS is used for the entire earth. http://mgrs-data.org/</attrdef>
+				<attrdefs>GeoPlan</attrdefs>
+				<attalias Sync="TRUE">MGRS</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">15</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>GOOGLEMAP</attrlabl>
+				<attrdef>Webpage hyperlink to location in Google Maps.</attrdef>
+				<attrdefs>GeoPlan</attrdefs>
+				<attalias Sync="TRUE">GOOGLEMAP</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">100</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>DESCRIPT</attrlabl>
+				<attrdef>FGDL added field based on SITENAME</attrdef>
+				<attrdefs>Geoplan</attrdefs>
+				<attalias Sync="TRUE">DESCRIPT</attalias>
+				<attrtype Sync="TRUE">String</attrtype>
+				<attwidth Sync="TRUE">40</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr>
+				<attrlabl>FGDLAQDATE</attrlabl>
+				<attrdef>Date FGDL obtained data from source.</attrdef>
+				<attrdefs>Geoplan</attrdefs>
+				<attalias Sync="TRUE">FGDLAQDATE</attalias>
+				<attrtype Sync="TRUE">Date</attrtype>
+				<attwidth Sync="TRUE">8</attwidth>
+				<atprecis Sync="TRUE">0</atprecis>
+				<attscale Sync="TRUE">0</attscale>
+			</attr>
+			<attr><attrlabl Sync="TRUE">AUTOID</attrlabl><attalias Sync="TRUE">AUTOID</attalias><attrtype Sync="TRUE">Integer</attrtype><attwidth Sync="TRUE">10</attwidth><atprecis Sync="TRUE">10</atprecis><attrdef Sync="TRUE">Unique ID added by GeoPlan. This field is for historic tracking of features.</attrdef><attscale Sync="TRUE">0</attscale></attr><attr><attrlabl Sync="TRUE">SHAPE_LEN</attrlabl><attalias Sync="TRUE">SHAPE_LEN</attalias><attrtype Sync="TRUE">Double</attrtype><attwidth Sync="TRUE">19</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr></detailed>
+	</eainfo>
+	<spdoinfo>
+		<ptvctinf><esriterm Name="shpo_bridges_oct23"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom code="3" Sync="TRUE"></efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf></spdoinfo>
+	<Binary>
+		<Thumbnail>
+			<Data EsriPropertyType="PictureX">/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0a
+HBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIy
+MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACFAMgDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3+iii
+gAooooACQBknAFFBOBmkGeh/OgBaKQ+vJ46etKc4460AFFA+uaKACiiigAooooAKKKKACim7uAT3
+OOOeacCCMg5BoAKKKKACiiigAooooAKKKKACiiigAooooAKaEAdnGckAHn0p1FACYHHXj3pcc5oo
+oAbuClVZhuboOmfpTqKKACigHIzQBgYoAMDOcc0Y5zRRQADgdc+9FFGBnOOaAI2WQuhSQBQSWBXJ
+Yeme1SAYGKQgcE9jx/KgZy2Txnj6UwFooopAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRR
+RQAUUUUAFBAIwRkGiigAooooABnvRkZxnmijnmgBFYMoZSCCMgjvS0gGBjAGOgFLQAUUUUAFFFFA
+BRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFNMiLnLAYBJz2A//AF06gAOe1IBjPJOT
+3paKAGllQqpY/Mdqj3wT/IU6kbdsOzG7HGemaWgAooooAKKKKACiiigAooooAKKKKACiiigAoooo
+AKKKKACiiigAooooArXQUyQCWESxtIAPkLFG5Ib6dvbNWAAvA4FDDODjJHIoGGXkcEdDTvoAtFGB
+nOOaKQBTRhTt/Hk5PvSkHbjcQfXvQScjAzzz7UALRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQ
+AUUUUAFFFFABRRRQAU07t4AHy4JJz+n+fSnUUAJ1PB6cEUvpxRRQAE4GaKKKACikGcc5/GloAKKK
+KACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKADnims+3qrEYJyBn/69OooAAc0j
+MqKWZgqjqScAUtIeeCMgjmgAVg6Bh0IyOaWiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKMjOM81GzSbTsjy2ON7YB/EZ/lQBJRTSpLZ3HGPu9qdQAUUUUAFFFFABRRR
+QAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf/9k=
+</Data></Thumbnail>
+	</Binary>
+</metadata>
