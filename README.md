@@ -15,3 +15,11 @@ This map depicts the locations of historic bridges in Brevard County. The data i
 the [Florida Geographic Data Library](https://fgdl.org/ords/r/prod/fgdl-current/catalog) (BAR Historic Bridges in Florida - Oct 2023).
 
 The colors for this map were selected from the first image of the Sebastian Inlet Bridge in [this article.](https://www.sitd.us/sebastian-inlet-bridge-in-design-phase-timeline-below) The Sebastian Inlet Bridge is identified with a triangle on this map.
+
+## Day 2: Lines
+
+####: Map: All Roads Lead to Rome...Georgia?
+
+![Day 2: Lines](day2_lines/day2_lines.png?raw=true "Roads in Rome, Georgia")
+
+For day 2, I decided to plot the road system in Rome, Georgia. (Honestly, I just though of the saying "all roads lead to rome" and decided to run with it.) The spatial line file came from the [Georgia GIS Clearinghouse](https://data.georgiaspatial.org).
