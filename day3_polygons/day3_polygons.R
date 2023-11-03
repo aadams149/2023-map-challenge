@@ -73,6 +73,8 @@ data %>%
   guides(alpha = FALSE) +
   theme(
     text = element_text(family = plotfont),
+    plot.background = element_rect(fill = 'white',
+                                   color = 'white'),
     legend.title.align = 0.5,
     plot.title = element_text(hjust = 0.5,
                               color = 'black',
