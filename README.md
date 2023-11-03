@@ -18,8 +18,16 @@ The colors for this map were selected from the first image of the Sebastian Inle
 
 ## Day 2: Lines
 
-####: Map: All Roads Lead to Rome...Georgia?
+#### Map: All Roads Lead to Rome...Georgia?
 
 ![Day 2: Lines](day2_lines/day2_lines.png?raw=true "Roads in Rome, Georgia")
 
 For day 2, I decided to plot the road system in Rome, Georgia. (Honestly, I just though of the saying "all roads lead to rome" and decided to run with it.) The spatial line file came from the [Georgia GIS Clearinghouse](https://data.georgiaspatial.org).
+
+## Day 3: Polygons
+
+#### Map: Vacancy Rates in Census Tracts in Washington, D.C.
+
+![Day 3: Polygons](day3_polygons/day3_polygons.png?raw=true "Vacancy Rates in D.C. Census Tracts")
+
+For day 3, I decided to plot the housing vacancy rates across census tracts in Washington, D.C. I also overlaid the boundaries for D.C.'s eight wards and added identifying labels. The data came from the [Washington D.C. Open Data portal](https://opendata.dc.gov/datasets/DCGIS::census-tracts-in-2020/explore).
