@@ -69,3 +69,15 @@ The colors for this map were taken from the first image on the [Wikipedia page f
 ![Day 7: Navigation](day7_navigation/day7_navigation.png?raw=true "Closest Metro Line in Northwest D.C.")
 
 I have to be honest, I don't feel particularly proud of this map. This is a map of neighborhood clusters in northwest Washington D.C., colored according to the metro line of the stop closest to them. In northwest D.C., all of the stops on the blue line are also on the orange and silver lines. These are presented as blue for simplicity. The green line overlaps substantially with the yellow line, so a similar approach was taken. The colors of the map are the official WMATA hex codes. The shapefile for the neighborhood clusters can be found [here](https://opendata.dc.gov/datasets/neighborhood-clusters/explore). The data for the metro stops is taken from the WMATA API by way of a tutorial I wrote for the `folium` package in python during my master's degree. The data can be found [here](https://github.com/aadams149/portfolio/tree/main/Coursework), as can the tutorial. At some point, I may try to rework this into something better, but for now I'm focusing on finishing as many maps as I can for this challenge. 
+
+## Day 8: Africa
+
+#### Map: I Bless the Rains Down in Africa
+
+![Day 8: Africa](day8_africa/day8_africa.png?raw=true "Avg. Annual Rainfall in South Africa, 1983-2000")
+
+Sure, Toto really had something with the whole "bless the rains down in Africa" thing, but what were those rains really like? For my Day 8 map, I chose to visualize the average rainfall in millimeters/year between 1983 and 2000. Why 1983? Because "Africa" by Toto came out in 1982. Why 2000? Because that's where the data ended. 
+
+This map clearly shows that the eastern parts of South Africa got a higher amount of annual rainfall on average than the western regions of the country. However, the data I found did not have records for several municipalities, particularly in the east, hence the greyed-out locations. I've identified the top 5 and bottom 5 municipalities for average annual rainfall and labeled them. Some of the weather reporting stations matched to the same municipality, which is why you might see two labels pointing to the same polygon but listing different values. They're capturing different parts of that polygon.
+
+The colors for this map are drawn from the South African flag: red for the dry parts, green for the wet parts, black and blue for the fill scale, gold for the borders and background, and white for the header and footer panels. The data for this map came from the [South African Environmental Observation Network (SAEON)](https://livingatlas-dcdev.opendata.arcgis.com/datasets/044f1e57cf1e4e489e2d9d89734f3d5a_0/about), as well as [this random person's upload of municipality boundaries](https://dataportal-mdb-sa.opendata.arcgis.com/datasets/b415f05c9d0648bfa2b042aa799059ad/about) and [Princeton University for the nation-level shapefile of South Africa I used in preparing the data for this map.](https://maps.princeton.edu/catalog/stanford-qt291sw6359)
