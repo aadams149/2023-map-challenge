@@ -99,3 +99,13 @@ For this map, I chose to visualize DW-Nominate scores. DW-Nominate is a method p
 For this map, I re-used some data I personally compiled for a project for my master's degree. That project centered on the social media presences of county public health departments across the U.S. during the COVID-19 pandemic. I was mainly looking if counties which had these accounts (and furthermore, which had active accounts) had notably different rates of COVID infection or death. (Spoiler alert: they didn't.) But the data lives on, even if it is only accurate as of December 2021. This is a filled polygon map of U.S. counties, colored by whether or not they have a Facebook account for their public health department, a Twitter account, both, or neither. Some really populous counties, like Bernalillo County, New Mexico, don't have social media accounts for their public health department, while some small rural counties, like the ones in Nebraska and Idaho, do have these accounts. This is because many rural counties opted to consolidate their public health departments into multi-county public health districts for efficiency, and these multi-county districts have social media accounts. If you look at the code, you can see which of my repos I'm pulling this data from, and that repo also has data on those multi-county departments as well as a shapefile of their boundaries. 
 
 Is this a bit of a cop-out? Yes. Do I care? No.
+
+## Day 12: South America
+
+#### Map: Orinoco Flow: Cities and Towns Along the Orinoco River
+
+![Day 12: South America](day12_southamerica/day12_southamerica.png?raw=true "Cities and Towns Along the Orinoco River")
+
+Don't get it twisted, I don't like Orinoco Flow as a song all that much. That being said, the title did provide the inspiration for my Day 12 map, which shows cities and towns in Colombia and Venezuela along the Orinoco River. Locations are identified by labels and sized according to population, and labels are colored by country. 
+
+Data for the river came from the [UN Food and Agriculture Organization](https://data.apps.fao.org/catalog/iso/12d7d96a-b0ea-4aea-aedc-b9c9a80cab7f), and the coordinates for the different cities came from [simplemaps.com](https://simplemaps.com/data/co-cities).
