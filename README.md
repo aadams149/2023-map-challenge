@@ -42,7 +42,7 @@ I'm a huge fan of the Eurovision Song Contest, and this is the first but likely 
 
 This map shows all the countries which have awarded points to Morocco in the Eurovision Song Contest. The two colors used (red for Morocco and green for Italy) are the two colors of the Moroccan flag. If you don't like this map, maybe you'll like Bitaqat Hub better. I suggest you listen to it; it's a fantastic fusion of disco and traditional Arabic music styles, and Samira Bensaïd is a stellar artist. Morocco may have only sent one Eurovision entry, but it's a good one.
 
-Tne shapefile for this map came from [opendatasoft](https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/).
+The shapefile for this map came from [opendatasoft](https://public.opendatasoft.com/explore/dataset/world-administrative-boundaries/).
 
 ## Day 5: Analog
 
@@ -109,3 +109,15 @@ Is this a bit of a cop-out? Yes. Do I care? No.
 Don't get it twisted, I don't like Orinoco Flow as a song all that much. That being said, the title did provide the inspiration for my Day 12 map, which shows cities and towns in Colombia and Venezuela along the Orinoco River. Locations are identified by labels and sized according to population, and labels are colored by country. 
 
 Data for the river came from the [UN Food and Agriculture Organization](https://data.apps.fao.org/catalog/iso/12d7d96a-b0ea-4aea-aedc-b9c9a80cab7f), and the coordinates for the different cities came from [simplemaps.com](https://simplemaps.com/data/co-cities).
+
+## Day 13: Choropleth Map
+
+#### Map: State Legislatures, Laboratories of Democracy
+
+![Day 13: Choropleth Map](day13_choropleth/day13_choropleth.png?raw=true "State Legislatures, Laboratories of Democracy")
+
+Supreme Court Justice Louis Brandeis once famously referred to state legislatures as "laboratories of democracy", venues for the citizens of the several states to attempt new and interesting policy solutions in order to address the issues of the day. My choropleth map attempts to visualize this somewhat; here, states are shaded based on the average number of bills introduced by a legislator in 2021. This is calculated as `Total # of Bills Introduced`/(Size of Lower Chamber + Size of Upper Chamber).
+
+Data on bill filing is taken from [this FiscalNote report](https://www.prnewswire.com/news-releases/fiscalnote-releases-2021-most-effective-states-legislative-report-301443817.html) and data on state legislature size is taken from the Wikipedia article "Comparison of U.S. state and territory governments".
+
+This was a really quick one. I reused a lot of my code from day 10 here (and may end up putting some of that into a function to make it easier to create inset maps like this going forward). 
