@@ -121,3 +121,15 @@ Supreme Court Justice Louis Brandeis once famously referred to state legislature
 Data on bill filing is taken from [this FiscalNote report](https://www.prnewswire.com/news-releases/fiscalnote-releases-2021-most-effective-states-legislative-report-301443817.html) and data on state legislature size is taken from the Wikipedia article "Comparison of U.S. state and territory governments".
 
 This was a really quick one. I reused a lot of my code from day 10 here (and may end up putting some of that into a function to make it easier to create inset maps like this going forward). 
+
+## Day 14: Europe
+
+#### Map: Eurovision Song Contest Host Cities, 1956-2024
+
+![Day 14: Europe](day14_europe/day14_europe.png?raw=true "Eurovision Song Contest Host Cities, 1956-2024")
+
+I said I'd make another Eurovision map, and I did. This map shows the different cities which have hosted the Eurovision Song Contest from its inception in 1956 (Lugano, Switzerland) to the upcoming 2024 contest (to be held in Malmö, Sweden). Points are colored based on the decade in which that city most recently hosted, and are sized according to the number of times they've hosted.I recommend viewing the interactive version in the folder; the city markers there have popups which name them and include the years they've hosted as well as links to the winning entries from those years. Some essential context for Eurovision: part of the prize for winning the contest is the right to host the following year. This has been a practice since 1958, and there have only been a few exceptions: 1972 (Edinburgh, United Kingdom), when Monaco was unable to host as the incumbent winner, 1974 (Brighton, United Kingdom), after Luxembourg was unable to host a second time in a row following their victories in 1972 and 1973, 1980 (The Hague, The Netherlands) after Israel was unable to host a second time following their victories in 1978 and 1979, and 2023 (Liverpool, United Kingdom), when Ukraine was unable to host after their 2022 victory due to the ongoing war.
+
+The link for 2020 (Rotterdam, the Netherlands) is empty, since that contest was cancelled due to the COVID-19 pandemic. The link for the 2024 contest in Malmö is also empty since that contest has not happened yet. The link for the 1969 contest (Madrid, Spain) goes to a playlist, since the 1969 contest ended in an unprecedented four-way tie between France, Spain, the Netherlands, and the United Kingdom. The 1990 contest was hosted in Zagreb in what is now Croatia; at the time, however, this was the first and only contest hosted in the former Yugoslavia. 
+
+If you've never been exposed to Eurovision before, I recommend checking out the 1974 winner (Brighton, United Kingdom) or the 1988 winner (Dublin, Ireland). Those are probably the two most internationally-famous artists. Some of my personal favorite winning songs are 1993 (Millstreet, Ireland), 2007 (Helsinki, Finland), and my single favorite Eurovision song of all time, 2016 (Stockholm, Sweden). Happy listening!
