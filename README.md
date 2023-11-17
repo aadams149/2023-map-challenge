@@ -133,3 +133,13 @@ I said I'd make another Eurovision map, and I did. This map shows the different 
 The link for 2020 (Rotterdam, the Netherlands) is empty, since that contest was cancelled due to the COVID-19 pandemic. The link for the 2024 contest in Malmö is also empty since that contest has not happened yet. The link for the 1969 contest (Madrid, Spain) goes to a playlist, since the 1969 contest ended in an unprecedented four-way tie between France, Spain, the Netherlands, and the United Kingdom. The 1990 contest was hosted in Zagreb in what is now Croatia; at the time, however, this was the first and only contest hosted in the former Yugoslavia. 
 
 If you've never been exposed to Eurovision before, I recommend checking out the 1974 winner (Brighton, United Kingdom) or the 1988 winner (Dublin, Ireland). Those are probably the two most internationally-famous artists. Some of my personal favorite winning songs are 1993 (Millstreet, Ireland), 2007 (Helsinki, Finland), and my single favorite Eurovision song of all time, 2016 (Stockholm, Sweden). Happy listening!
+
+## Day 15: OpenStreetMap
+
+#### Map: Museums and Metro Stations in Washington, D.C.
+
+![Day 15: OpenStreetMap](day15_openstreetmap/day15_openstreetmap.png?raw=true "Museums and Metro Stations in Washington, D.C.")
+
+For this map I plotted a data set of museum locations in Washington, D.C. alongside WMATA metro stations using the `ggspatial` package, which allows for easy use of OpenStreetMap tiles to create static plots. This is a relatively simple and unsophisticated map, but it does the job.
+
+The data for the WMATA stations is the same data used in my Day 7 map, and the data for the museum locations comes from [opendata.dc.gov](https://opendata.dc.gov/datasets/DCGIS::museums/about).
