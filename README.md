@@ -100,6 +100,10 @@ For this map, I re-used some data I personally compiled for a project for my mas
 
 Is this a bit of a cop-out? Yes. Do I care? No.
 
+## Day 11: Retro
+
+I might come back and do a map for this later, but I haven't done one yet.
+
 ## Day 12: South America
 
 #### Map: Orinoco Flow: Cities and Towns Along the Orinoco River
@@ -143,3 +147,15 @@ If you've never been exposed to Eurovision before, I recommend checking out the 
 For this map I plotted a data set of museum locations in Washington, D.C. alongside WMATA metro stations using the `ggspatial` package, which allows for easy use of OpenStreetMap tiles to create static plots. This is a relatively simple and unsophisticated map, but it does the job.
 
 The data for the WMATA stations is the same data used in my Day 7 map, and the data for the museum locations comes from [opendata.dc.gov](https://opendata.dc.gov/datasets/DCGIS::museums/about).
+
+## Day 16: Oceania
+
+#### Map: The Farm League
+
+![Day 16: Oceania](day16_oceania/day16_oceania.png?raw=true "Leap Like Rams, Skip Like Lambs")
+
+This map has two facets. The left side shows which areas of New Zealand farm the most sheep, cast as hexagonal polygons. The right side shows the 2017 season for the Canterbury Rams, a basketball team which plays in the New Zealand National Basketball League; specifically, it shows the average number of points scored against the opposing teams at different stadiums across New Zealand (calculated as mean(Rams Score/Opponent Score)). 
+
+I was hoping to see that playing in parts of the country with lots of sheep meant the Rams would perform better, perhaps out of a sense of interspecies/mascot-driven solidarity. This does not appear to be the case. The southernmost part of the southern island, which has more sheep than anywhere else in New Zealand, saw one of the Rams' weaker average performances, while their best average score (achieved at the Trafalgar Centre) took place in a part of the country where there are few if any sheep. Suffice it to say, the Rams do not appear to derive strength on the court from the local presence of their namesake animals. 
+
+The data for the sheep counts came from [data.mfe.govt.nz](https://data.mfe.govt.nz/layer/99906-livestock-numbers-grid-aps-2017/), and the data for the Canterbury Rams 2017 season came from [nznbl.basketbal](https://nznbl.basketball/stats/results/?WHurl=%2Fcompetition%2F16992%2Fteam%2F31805%2Fschedule).
