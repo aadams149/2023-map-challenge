@@ -159,3 +159,11 @@ This map has two facets. The left side shows which areas of New Zealand farm the
 I was hoping to see that playing in parts of the country with lots of sheep meant the Rams would perform better, perhaps out of a sense of interspecies/mascot-driven solidarity. This does not appear to be the case. The southernmost part of the southern island, which has more sheep than anywhere else in New Zealand, saw one of the Rams' weaker average performances, while their best average score (achieved at the Trafalgar Centre) took place in a part of the country where there are few if any sheep. Suffice it to say, the Rams do not appear to derive strength on the court from the local presence of their namesake animals. 
 
 The data for the sheep counts came from [data.mfe.govt.nz](https://data.mfe.govt.nz/layer/99906-livestock-numbers-grid-aps-2017/), and the data for the Canterbury Rams 2017 season came from [nznbl.basketbal](https://nznbl.basketball/stats/results/?WHurl=%2Fcompetition%2F16992%2Fteam%2F31805%2Fschedule).
+
+## Day 19: 5-Minute Map
+
+#### Map: FIPS Codes and Hex Codes: U.S. Counties with colors in their names
+
+![Day 19: 5-Minute Map](day19_5minutemap/day19_5minutemap.png?raw=true "U.S. Counties with Color Names")
+
+In fairness, this map took me a little longer than five minutes, but not much longer. It's a map of the United States at the county level, and counties are colored based on a regex pattern match for color names (i.e. Greenwood County is colored green, Spink county is colored pink, Iredell county is colored red, and so on). I used the `tigris` package to import the shapefile, and since it comes with the county names built in, no additional data was needed here. 
