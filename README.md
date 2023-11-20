@@ -160,6 +160,16 @@ I was hoping to see that playing in parts of the country with lots of sheep mean
 
 The data for the sheep counts came from [data.mfe.govt.nz](https://data.mfe.govt.nz/layer/99906-livestock-numbers-grid-aps-2017/), and the data for the Canterbury Rams 2017 season came from [nznbl.basketbal](https://nznbl.basketball/stats/results/?WHurl=%2Fcompetition%2F16992%2Fteam%2F31805%2Fschedule).
 
+## Day 17: Flow
+
+#### Map: International Collaboration in the 2023 Eurovision Song Contest
+
+![Day 17: Flow](day17_flow/day17_flow.png?raw=true "International Collaboration in the 2023 Eurovision Song Contest")
+
+One of the oddest details about the Eurovision Contest is that there's no requirement that a country's song be written by people from that country. As such, there tends to be a decent amount of cross-border songwriting (though that's decreased in recent years). This map shows the countries which participated in the 2023 contest, filled by whether or not their songs were written entirely by lyricists and composers from that country. The blue arrows indicate a relationship; for example, one of the songwriters for this year's Irish entry is Swedish, so there's an arrow from Sweden to Ireland. Fans of the contest might notice that Serbia is shaded yellow, even though the lyricist and composer for that song, Luke Black, is Serbian. This is because "national origin" for the purposes of this data set means the country where a songwriter lives and works, and not where they're originally from. Luke Black is based in the United Kingdom, hence the arrow. 
+
+The data for this map came from [this tweet](https://twitter.com/EMursiya/status/1653794584663580674/photo/1) by Twitter user @EMursiya. I transcribed it into a spreadsheet and am including it in the folder for this map (note: "birth country" refers to the countries indicated by flags on @EMurisya's map, while "country origin" refers to the countries listed in parentheses in the annotations on that map).
+
 ## Day 19: 5-Minute Map
 
 #### Map: FIPS Codes and Hex Codes: U.S. Counties with colors in their names
