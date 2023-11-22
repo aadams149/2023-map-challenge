@@ -2,6 +2,7 @@
 
 # Import packages -----------------------------------------------------
 
+library(cowplot)
 library(dplyr)
 library(ggplot2)
 library(sf)
@@ -35,6 +36,7 @@ showtext_auto()
 font_add_google("Arvo")
 plotfont <- "Arvo"
 
+map <-
 ggplot() +
   geom_sf(data = brevard_county, color = 'black', fill = '#FFE8D1') +
   geom_sf(
@@ -46,13 +48,10 @@ ggplot() +
       shape = is_seb
     )
   ) +
-  ggtitle('Historic Bridges in Brevard County, Florida',
-          subtitle = '2023 30-Day Map Challenge Day 1: Points\nAlexander Adams') +
-  labs(caption = 'Data Source: Florida Geographic Data Library\nTwitter: @alexadams385\nGitHub: AAdams149') +
   theme_void() +
   theme(
     text = element_text(family = plotfont),
-    legend.title.align = 0.5,
+    legend.title.align = 0.25,
     plot.title = element_text(hjust = 0.5,
                               color = 'white',
                               size = 24),
@@ -60,19 +59,24 @@ ggplot() +
                                  hjust = 0.5,
                                  size = 18),
     plot.background = element_rect(fill = "#493C29"),
-    legend.text = element_text(color = 'white'),
+    legend.text = element_text(color = 'white',
+                               lineheight = 0.6),
     legend.title = element_text(color = 'white'),
-    legend.position = c(0.87, 0.5),
+    legend.position = c(0.95, 0.5),
     plot.caption = element_text(color = 'white',
                                 hjust = 0.5,
                                 size = 14),
+    plot.margin = margin(t = 30,
+                         r = 15,
+                         b = 30,
+                         l = 15),
     axis.text.x = element_blank(),
     axis.text.y = element_blank(),
     axis.line = element_blank(),
     axis.ticks = element_blank()
   ) +
-  guides(size = FALSE) +
-  guides(shape = FALSE) +
+  guides(size = 'none') +
+  guides(shape = 'none') +
   scale_color_manual(
     name = 'Condition',
     values = c('#BA8863',
@@ -82,4 +86,32 @@ ggplot() +
                '#7F797B')
   )
 
-ggsave('day1_points/day1_points.png')
+ggdraw() +
+  draw_plot(map) +
+  draw_text('Historic Bridges in Brevard County, Florida',
+            x = 0.5,
+            y = 0.97,
+            size = 36,
+            family = plotfont,
+            color = 'white') +
+  draw_text('2023 30-Day Map Challenge Day 1: Points',
+            x = 0.5,
+            y = 0.94,
+            size = 28,
+            family = plotfont,
+            color = 'white') +
+  draw_text('Alexander Adams',
+            x = 0.5,
+            y = 0.92,
+            size = 28,
+            family = plotfont,
+            color = 'white') +
+  draw_text('Data Source: Florida Geographic Data Library\nTwitter: @alexadams385\nGitHub: AAdams149',
+            x = 0.5,
+            y = 0.05,
+            size = 24,
+            family = plotfont,
+            color = 'white',
+            lineheight = 0.6)
+
+ggsave('day1_points/day1_points.png', width = 2100, height = 2100, units = 'px')
