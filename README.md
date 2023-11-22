@@ -177,3 +177,13 @@ The data for this map came from [this tweet](https://twitter.com/EMursiya/status
 ![Day 19: 5-Minute Map](day19_5minutemap/day19_5minutemap.png?raw=true "U.S. Counties with Color Names")
 
 In fairness, this map took me a little longer than five minutes, but not much longer. It's a map of the United States at the county level, and counties are colored based on a regex pattern match for color names (i.e. Greenwood County is colored green, Spink county is colored pink, Iredell county is colored red, and so on). I used the `tigris` package to import the shapefile, and since it comes with the county names built in, no additional data was needed here. 
+
+## Day 21: Raster
+
+#### Map: Mangrove Coverage in South Florida
+
+![Day 21: Raster](day21_raster/day21_raster.png?raw=true "Mangrove Coverage in South Florida")
+
+Growing up in Florida, one of the things I learned in school was the importance of mangrove trees in the local ecosystem. These trees are able to live in salt water, and use their roots to filter out the salt from the water. The red mangrove species which is particularly common in Florida has large roots which form habitats for local fish and marine life. ([Here's a picture, courtesy of the Brevard Zoo,](https://brevardzoo.org/wp-content/uploads/mangrove-roots.png)) 
+
+I chose to visualize mangrove coverage in south Florida as of 2020 for my raster map. The data comes from the [Advanced Land Observing Satellite Research and Application Project [ALOS](https://www.eorc.jaxa.jp/ALOS/en/dataset/gmw_e.htm)]. I merged and cropped this data to create the raster in the `day21_raster` folder, in order to save memory and keep the file size manageable. 
