@@ -178,6 +178,16 @@ The data for this map came from [this tweet](https://twitter.com/EMursiya/status
 
 In fairness, this map took me a little longer than five minutes, but not much longer. It's a map of the United States at the county level, and counties are colored based on a regex pattern match for color names (i.e. Greenwood County is colored green, Spink county is colored pink, Iredell county is colored red, and so on). I used the `tigris` package to import the shapefile, and since it comes with the county names built in, no additional data was needed here. 
 
+## Day 20: Outdoors
+
+#### Map: Elevation in Brevard County, Florida
+
+![Day 20: Outdoors](day20_outdoors/day20_outdoors.png?raw=true "Elevation in Brevard County Florida")
+
+I return once again to the place I grew up, Brevard County, Florida. This time, I've chosen to visualize the topography of the county. Granted, Florida as a whole is very flat, so the range of elevations (5 meters to 80 meters) doesn't span a particularly large range of values, but there's still enough to make for a decent map. Merritt Island (the land mass off the coast) is very low-lying, while some of the more inland parts of the county are more elevated. 
+
+The data for this map came from the [Florida Department of Environmental Protection Geospatial Open Data Portal](https://geodata.dep.state.fl.us/datasets/FDEP::elevations-contours-and-depression/about).
+
 ## Day 21: Raster
 
 #### Map: Mangrove Coverage in South Florida
