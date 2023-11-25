@@ -197,3 +197,11 @@ The data for this map came from the [Florida Department of Environmental Protect
 Growing up in Florida, one of the things I learned in school was the importance of mangrove trees in the local ecosystem. These trees are able to live in salt water, and use their roots to filter out the salt from the water. The red mangrove species which is particularly common in Florida has large roots which form habitats for local fish and marine life. ([Here's a picture, courtesy of the Brevard Zoo,](https://brevardzoo.org/wp-content/uploads/mangrove-roots.png)) 
 
 I chose to visualize mangrove coverage in south Florida as of 2020 for my raster map. The data comes from the [Advanced Land Observing Satellite Research and Application Project [ALOS](https://www.eorc.jaxa.jp/ALOS/en/dataset/gmw_e.htm)]. I merged and cropped this data to create the raster in the `day21_raster` folder, in order to save memory and keep the file size manageable. 
+
+## Day 23: 3-D
+
+#### Map: United States Mean Center of Population, 1790-2020
+
+![Day 23: 3-D](day23_3d/day23_3d.gif?raw=true "Mean Center of Population, United States, 1790-2020")
+
+Time is a dimension, right? That's what I'm going with for this map: longitude, latitude, and time, Three dimensions, like the challenge says. This gif shows the movement of the [mean center of population](https://en.wikipedia.org/wiki/Mean_center_of_the_United_States_population) in the United States from the first decennial census in 1790 to the most recent one (as of this map) in 2020. The states also become shaded darker as their population increases. I wanted to include a legend, but for some reason `gganimate` made it jump around a lot, and the effect was kind of nauseating. It's bad enough that the title moves the way it does. I also wanted the transitions to be smoother, but attempting to use any of the other transition types in `gganimate` basically stalled out the render process, so `transition_manual` was the best option. The data for the coordinates for the mean center of population come from the Wikipedia article linked above, and the data for state population comes from [this Wikipedia article with tables of states and their populations across different census years.](https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_historical_population)
