@@ -1,8 +1,8 @@
 # 2023-map-challenge
 Code and maps for the 2023 30-Day Map Challenge
 
-At the encouragement of some friends, I've decided to try the 2023 30-Day Map
-Challenge. This repository contains the code and maps I've created during this challenge.
+At the encouragement of some friends, I've decided to try the [2023 30-Day Map
+Challenge](https://30daymapchallenge.com/). This repository contains the code and maps I've created during this challenge.
 
 ## Day 1: Points
 
@@ -46,7 +46,7 @@ The shapefile for this map came from [opendatasoft](https://public.opendatasoft.
 
 ## Day 5: Analog
 
-Yeah I didn't feel like doing this.
+[To be added if I get around to it]
 
 ## Day 6: Asia
 
@@ -102,7 +102,7 @@ Is this a bit of a cop-out? Yes. Do I care? No.
 
 ## Day 11: Retro
 
-I might come back and do a map for this later, but I haven't done one yet.
+[To be added if I get around to it]
 
 ## Day 12: South America
 
@@ -170,6 +170,10 @@ One of the oddest details about the Eurovision Contest is that there's no requir
 
 The data for this map came from [this tweet](https://twitter.com/EMursiya/status/1653794584663580674/photo/1) by Twitter user @EMursiya. I transcribed it into a spreadsheet and am including it in the folder for this map (note: "birth country" refers to the countries indicated by flags on @EMurisya's map, while "country origin" refers to the countries listed in parentheses in the annotations on that map).
 
+## Day 18: Atmosphere
+
+[To be added if I get around to it]
+
 ## Day 19: 5-Minute Map
 
 #### Map: FIPS Codes and Hex Codes: U.S. Counties with colors in their names
@@ -198,6 +202,17 @@ Growing up in Florida, one of the things I learned in school was the importance 
 
 I chose to visualize mangrove coverage in south Florida as of 2020 for my raster map. The data comes from the [Advanced Land Observing Satellite Research and Application Project [ALOS](https://www.eorc.jaxa.jp/ALOS/en/dataset/gmw_e.htm)]. I merged and cropped this data to create the raster in the `day21_raster` folder, in order to save memory and keep the file size manageable. 
 
+## Day 22: North is Not Always Up
+
+#### Map: The Nile River and its Tributaries
+
+![Day 22: North is not Always Up](day22_northnotup/day22_northnotup.png?raw=true "The Nile River and its Tributaries")
+
+When we look at maps of the natural world, many of the rivers depicted flow north-to-south, like the Mississippi River, the Volga River, or the Ganges River. The Nile River in northeast Africa, however, flows south-to-north, with tributaries starting in southern Uganda and west Ethiopia, joining in Sudan, and flowing northward through Egypt. This map presents the Nile, but oriented how we expect to see rivers; that it, it has been inverted, with its sources in the north and the delta in the south. Tributaries and sections of the river are colored by name (though the "Northern Nile" label is not officially used, and I applied it here mainly to delineate that section of the river basin from the others). The blue line running north-to-south is the main body of the river. 
+
+The data for the main body of the Nile River came from [naturalearth.com](https://www.naturalearthdata.com/downloads/110m-physical-vectors/110m-rivers-lake-centerlines/), as did the country shapefiles. The data for the Nile tributaries came from the [United Nations Food and Agricultural Organization](https://data.apps.fao.org/catalog/iso/b891ca64-4cd4-4efd-a7ca-b386e98d52e8), like the other river-based maps I've made.
+
+
 ## Day 23: 3-D
 
 #### Map: United States Mean Center of Population, 1790-2020
@@ -205,3 +220,5 @@ I chose to visualize mangrove coverage in south Florida as of 2020 for my raster
 ![Day 23: 3-D](day23_3d/day23_3d.gif?raw=true "Mean Center of Population, United States, 1790-2020")
 
 Time is a dimension, right? That's what I'm going with for this map: longitude, latitude, and time, Three dimensions, like the challenge says. This gif shows the movement of the [mean center of population](https://en.wikipedia.org/wiki/Mean_center_of_the_United_States_population) in the United States from the first decennial census in 1790 to the most recent one (as of this map) in 2020. The states also become shaded darker as their population increases. I wanted to include a legend, but for some reason `gganimate` made it jump around a lot, and the effect was kind of nauseating. It's bad enough that the title moves the way it does. I also wanted the transitions to be smoother, but attempting to use any of the other transition types in `gganimate` basically stalled out the render process, so `transition_manual` was the best option. The data for the coordinates for the mean center of population come from the Wikipedia article linked above, and the data for state population comes from [this Wikipedia article with tables of states and their populations across different census years.](https://en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_historical_population)
+
+## Day 24: Black and White
