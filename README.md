@@ -230,3 +230,19 @@ Time is a dimension, right? That's what I'm going with for this map: longitude, 
 This map shows the locations of historically black colleges and universities in the United States. HBCUs, as opposed to majority-black institutions, must have been founded before 1964. Many of these colleges and universities can trace their origins back to the mid-19th century or early 20th century, when they were established by or named for either free Black Americans (like William White, who cofounded Morehouse College in Atlanta) or anti-segregationist white Americans (like Laura Spelman Rockefeller, who financially supported Spelman College in Atlanta in its early years), or in some cases as land grant universities, like Bowie State University in Maryland or Langston University in Oklahoma. Some HBCUs, like Bluefield State University in West Virginia, are now majority-white. Regardless, these institutions are still considered HBCUs because historically their primary purpose was to serve and educate Black students. 
 
 The data for this map comes from the "Current Institutions" table on the [Wikipedia page for the List of Historically Black Colleges and Universities](https://en.wikipedia.org/wiki/List_of_historically_black_colleges_and_universities). The version of this map included above is static, but there's an interactive version in the folder which lists the names and founding dates of each HBCU.
+
+## Day 25: Antarctica
+
+[To be added if I get around to it]
+
+## Day 26: Minimal
+
+#### Map: Municipalities in Monaco
+
+![Day 26: Minimal](day26_minimal/day26_minimal.png?raw-true "Municipalities in Monaco")
+
+There's a series of children's books about a woman named Amelia Bedelia, who variously works as a housekeeper or nanny, or does other odd jobs. Amelia Bedelia always interprets figures of speech literally; when she's asked to draw the curtains, she takes out her sketchbook and some colored pencils. I've taken a bit of an Amelia Bedelia approach to this particular map. I know that the "minimal" theme means a map with very few features, but I've instead made a map of a very small (one might say "minimal") place: Monaco. Monaco is the smallest sovereign nation on earth besides the Vatican City. It occupies an area less than 1 square mile on the southern coast of France, and has fewer than 40,000 residents, of whom fewer than 10,000 are actually Monegasque (a delightful demonym, I might add). Despite being so small, Monaco has its own language (Monegasque), though its official language, as used in nearly all government business and day-to-day life, is French. 
+
+This map shows the nine wards of Monaco, labeled by name and shaded according to their population (with red as the gradient in honor of the Monegasque flag). The background color is a shade known as Monaco Blue. I've also labeled the Monte Carlo Casino, Monaco's largest and most famous tourist attraction and cultural center, with a small diamond. 
+
+The data for this map came from the [Humanitarian Data Exchange](https://data.humdata.org/dataset/kontur-boundaries-monaco).
