@@ -246,3 +246,13 @@ There's a series of children's books about a woman named Amelia Bedelia, who var
 This map shows the nine wards of Monaco, labeled by name and shaded according to their population (with red as the gradient in honor of the Monegasque flag). The background color is a shade known as Monaco Blue. I've also labeled the Monte Carlo Casino, Monaco's largest and most famous tourist attraction and cultural center, with a small diamond. 
 
 The data for this map came from the [Humanitarian Data Exchange](https://data.humdata.org/dataset/kontur-boundaries-monaco).
+
+## Day 27: Dot Map
+
+#### Map: Generations in Washington. D.C
+
+![Day 27: Dot Map](day27_dot/day27_dot.png?raw=true "Generations in Washington, D.C.")
+
+This map displays census tracts and wards in D.C. Each tract is filled with dots colored according to generation, from Generation Alpha to the Silent Generation. (Ranges are approximate, and counts were calculated based on available data). Each dot represents 50 people. I was hoping this map would reveal some interesting geographic patterns. It looks like D.C. is filled with older people, particularly baby boomers and members of the silent generation. There appear to be some concentrations of Gen Xers in parts of northwest DC, while millenials look to be clustered in the eastern parts of the district. 
+
+The data for this map came from the [American Community Survey by way of the D.C. Open Data Portal](https://opendata.dc.gov/datasets/62e1f639627342248a4d4027140a1935/explore).
