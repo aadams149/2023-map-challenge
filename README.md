@@ -1,5 +1,5 @@
 # 2023-map-challenge
-Code and maps for the 2023 30-Day Map Challenge
+## Code and maps for the 2023 30-Day Map Challenge
 
 At the encouragement of some friends, I've decided to try the [2023 30-Day Map
 Challenge](https://30daymapchallenge.com/). This repository contains the code and maps I've created during this challenge.
@@ -256,3 +256,15 @@ The data for this map came from the [Humanitarian Data Exchange](https://data.hu
 This map displays census tracts and wards in D.C. Each tract is filled with dots colored according to generation, from Generation Alpha to the Silent Generation. (Ranges are approximate, and counts were calculated based on available data). Each dot represents 50 people. I was hoping this map would reveal some interesting geographic patterns. It looks like D.C. is filled with older people, particularly baby boomers and members of the silent generation. There appear to be some concentrations of Gen Xers in parts of northwest DC, while millenials look to be clustered in the eastern parts of the district. 
 
 The data for this map came from the [American Community Survey by way of the D.C. Open Data Portal](https://opendata.dc.gov/datasets/62e1f639627342248a4d4027140a1935/explore).
+
+## Day 29: Population
+
+#### Map: Love is Love: Same-Gender Couples in the United States
+
+![Day 29: Population](day29_population/day29_population_count.png?raw=true "# of Americans in Same-Gender Relationships in the United States, 2020")
+
+![Day 29: Population](day29_population/day29_population_prop.png?raw=true "Americans in Same-Gender Relationships in States per Capita, 2020")
+
+These maps show the prevalence of Americans in same-gender relationships across the United States and Puerto Rico. The numbers are taken from the 2020 decennial census. The first map shows raw counts per states, while the second one shows the percentage of each state's population in a same-gender relationship. It should be noted that the counts/percentages are derived from two variables in the census: DP1_0116C (count of Americans in same-gender marriages) and DP1_0118C (count of Americans in same-gender partnerships). For each map, I've labeled the top five and bottom five states.
+
+The data for these maps comes from the [2020 U.S. Census](https://data.census.gov/table/DECENNIALDP2020.DP1?t=Same%20Sex%20Couples&g=010XX00US,$0400000&d=DEC%20Demographic%20Profile).
