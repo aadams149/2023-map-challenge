@@ -263,7 +263,7 @@ The data for this map came from the [American Community Survey by way of the D.C
 
 ![Day 29: Population](day29_population/day29_population_count.png?raw=true "# of Americans in Same-Gender Relationships in the United States, 2020")
 
-![Day 29: Population](day29_population/day29_population_prop.png?raw=true "Americans in Same-Gender Relationships in States per Capita, 2020")
+![Day 29: Population](day29_population/day29_population_proportion.png?raw=true "Americans in Same-Gender Relationships in States per Capita, 2020")
 
 These maps show the prevalence of Americans in same-gender relationships across the United States and Puerto Rico. The numbers are taken from the 2020 decennial census. The first map shows raw counts per states, while the second one shows the percentage of each state's population in a same-gender relationship. It should be noted that the counts/percentages are derived from two variables in the census: DP1_0116C (count of Americans in same-gender marriages) and DP1_0118C (count of Americans in same-gender partnerships). For each map, I've labeled the top five and bottom five states.
 
