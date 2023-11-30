@@ -257,6 +257,17 @@ This map displays census tracts and wards in D.C. Each tract is filled with dots
 
 The data for this map came from the [American Community Survey by way of the D.C. Open Data Portal](https://opendata.dc.gov/datasets/62e1f639627342248a4d4027140a1935/explore).
 
+## Day 28: Is it a Chart or a Map?
+
+#### Map: Average Temperature in the U.S., October 2023
+
+![Day 28: Chart or Map](day28_chartormap/day28_chartormap.png?raw=true "Average Temperature in the U.S., October 2023")
+
+First and foremost, I want to give credit to Kyle Walker (`@walkerke`). I had some ideas for this map, but I wasn't quite sure how to execute them, or even if they'd produce a result I could feel good about. Then, I saw Kyle's Day 28 map on Linkedin, where he combines a map of the U.S. with a bar chart using the `ggiraph` package to create an interactive visualization, and I took inspiration from that. If I had more time, I'd love to tinker with the formatting some more on this one, but I think it does an alright job of conveying the data. I wanted the map to mirror the bar graph, so visualizing average temperature seemed like a natural choice. States with lower average temperatures are toward the top of the bar chart (Alaska excepted), and as temperature increases, latitude decraeses. This is reflected in the color of the bars and the fill for the states. The version in the README is static, but there is an interactive version in the Day 28 folder (it's probably easier to read, though it might run a little choppy).
+
+The data for this map came from the [National Centers for Environmental Information](https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/statewide/mapping/110/tavg/202310/1/value), the [National Weather Service](https://www.weather.gov/media/lwx/climate/dcatemps.pdf), and [world-weather.info](https://world-weather.info/forecast/usa/honolulu/october-2023/).
+
+
 ## Day 29: Population
 
 #### Map: Love is Love: Same-Gender Couples in the United States
